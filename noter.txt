@@ -1,0 +1,11 @@
+- Se om kan bruge css vars istedet for hardcoded farver.
+- Eventuelt en spinner?
+
+- Få lavet en hamburger menu.
+- Fiks text overflow i naven samt overflow af knapperne.
+- Fiks newsletter input fields offset text placeholder og value.
+- Fjern a tags og erstatte med Link tags. TJEK.
+- Lav fjern og tilføj knap. TJEK
+- Lav søgning og filtrering.
+- Lav localstorage add to and remove from, and show. TJEK.
+- Lav 

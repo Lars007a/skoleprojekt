@@ -1,0 +1,86 @@
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  border-radius: 15px;
+
+  & img {
+    width: 100%;
+    height: auto;
+  }
+
+  & h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  & p {
+  }
+
+  .cardContainer {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px 15px 0px;
+}
+
+.removeIcon {
+  background-color: #ec221f;
+  border-radius: 365px;
+  padding: 20px;
+  color: white;
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.addIcon {
+  background-color: #009951;
+  border-radius: 365px;
+  padding: 20px;
+  color: white;
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.removeIcon:hover {
+  background-color: #b1100d;
+}
+
+.addIcon:hover {
+  background-color: #016d3b;
+}
+
+.showMoreBtn {
+  background-color: #0c5994;
+  color: white;
+  width: 60%;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.showMoreBtn:hover {
+  background-color: #094573;
+}
+
+@media (min-width: 1000px) {
+  .card img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
